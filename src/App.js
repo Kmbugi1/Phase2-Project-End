@@ -11,9 +11,9 @@ function App() {
       <div className="route app-container"> 
         <Router>
           <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Login />} />
             <Route path="/menu/:restaurantId" element={<Menu />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/home" element={<Home />} />
             
           </Routes>
         </Router>
