@@ -13,7 +13,9 @@ function NavBar({ orderData, setOrderData }) {
         <Cart setOrderData={setOrderData} orderData={orderData} />
       </nav>
 
-    
+      {/* <nav className="navbar navbar-expand-lg bg-body-tertiary">
+       
+      </nav> */}
     </>
   );
 }
