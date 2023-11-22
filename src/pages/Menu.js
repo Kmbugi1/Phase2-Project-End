@@ -11,7 +11,7 @@ function Menu() {
   const { restaurantId } = useParams();
 
   useEffect(() => {
-    fetch("http://localhost:5000/food")
+    fetch(" http://localhost:3000/food")
       .then((res) => res.json())
       .then((data) => setFood(data));
   }, []);
