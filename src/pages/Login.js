@@ -83,20 +83,7 @@ function Login() {
                 required
               />
             </div>
-            {/* <div className="mb-3">
-              <label htmlFor="age" className="form-label">
-                Age
-              </label>
-              <input
-                type="number"
-                id="age"
-                name="age"
-                value={age}
-                onChange={(e) => setAge(e.target.value)}
-                className="form-control"
-                required
-              />
-            </div> */}
+          
             <div className="mb-3">
               <label htmlFor="area" className="form-label">
                 Area
