@@ -36,7 +36,7 @@ function Menu() {
     <div className="container">
       <NavBar orderData={orderData} />
       <div className="menu-container">
-        <h2 className="restaurant-browse">Our Menu</h2>
+        <h2 className="restaurant-browse">Menu</h2>
         <Link to="/home">
           <button className="return-btn ">Restaurants</button>
         </Link>
