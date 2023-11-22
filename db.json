@@ -1,0 +1,432 @@
+{
+    "Logins": [{}],
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "Peppercorn",
+        "contact": "0705 867682",
+        "photo": "https://i.pinimg.com/550x/c4/03/69/c40369799756d2089c22ac7dd8dce405.jpg"
+      },
+  
+      {
+        "id": 2,
+        "name": "Royal Spice",
+        "contact": "0701 655514",
+        "photo": "https://pointex.co.ke/wp-content/uploads/2022/02/2019-01-17-11.16.15-1-1.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Kitchen Eighteen",
+        "contact": "0740 249934",
+        "photo": "data:image/png;base64,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"
+      },
+  
+      {
+        "id": 4,
+        "name": "Burger King",
+        "contact": "0792 451253",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Burger_King_logo_%281999%29.svg/2024px-Burger_King_logo_%281999%29.svg.png"
+      },
+  
+      {
+        "id": 5,
+        "name": "Dominos Pizza",
+        "contact": "0730 165666",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Domino%27s_pizza_logo.svg/640px-Domino%27s_pizza_logo.svg.png"
+      },
+  
+      {
+        "id": 6,
+        "name": "Kienyeji Kwetu",
+        "contact": "0705558469",
+        "photo": "https://lh5.googleusercontent.com/p/AF1QipMmjoUUNLKlmTGjMLgkMstCQlzpY98TybRFksPE=w160-h160-k-no"
+      },
+  
+      {
+        "id": 8,
+        "name": "Pabiro's",
+        "contact": "0720827561",
+        "photo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAA6lBMVEVFFh7///82ABs2AABDFB40AAAzABtCERpBER0uAAA7ABQ8CxwwAAAyAAAuABo+ChQpAAA9AA85BRz+vUE9BRE5AAjk3t80AAyQXSv/yET/xENMHh9RIyC/iDYhABhxVVlWMDaah4p9Z2mvnqHEubvQxsf18/QAAAAgAACTf4Lqqj2ngGmIVSr0s0BZKCL/z0Wfai9rOiW5fzTTmzoWABesdjJhMSN2RydfOkBOICjenzqMdXvJkDZMJiu5q67osj9nRkvx6OCtjHLatpGCW07EoH9aMC1eOjKOalj12qrjxpw8HRqXfmRuRz1dqxqxAAAFQUlEQVRoge1X22KiSBDtBqQxKIhIi7dBuU0MmKBMxKCoK2Emk939/9/ZajXZTELe4htHDbd4uvqc6qoWoQoVKlSoUKFChYtCGggX426boXwxcmUWti/FLd3eReKlyOV5b4akC5FLt319xF2IHDTX+/MLqd5WIl1P0SWyURgsBsOZrl8mG5V492Oh6yPlEuTi/d0y6eupIrwKQ1TyVeSLu3AJonPDIeJESElSI6uHpvol5FzamwP5SFrOzXixlAlxMMbuWPsCbulWnylmXw/bgiSGvd285WIGOv6C2GWzZ35L+zFbot8gJ5M1MPs+xF77CvLwx6aXShKSlQgm0PKAt9GaYLw6h054/hN/1U8mJ7wWE3k4SiMkt7nlpn+TcDwo/qCiuoun/Ik7mzjjUnZirUrvC8P5y6IRBujbD2UQxr2d2W4jY4ppC6HOCm9P5PUtxlanjMTwaFbGLocp4k6QB3Nzkc52o0TmINM1G2/rLF7fPZKrY/wyzPvAEfVKHwjDeBffR1G02Nzs9JtNNEecfFxE6h47tSO5c/wmk+mcOET7Iz07lr8qF11S5tFoE282C3M+UBROEl6/chTbsPCKbzZqJKPYu641DDasP4FDpwFja82aqk0tni8NHejPsrTlPxoFyDI1oABQl7cd12lZGK8zx7VVsMGf1DuatXVIx3acldrRyMQpt/STEguG2pp67VEEOem5xgSWk+/52DLQnufXlgVLoOZi6tI6S6lJidUSdzsflo5Q2/r7juW5KsV4YmPfw1vqfHfx9jvFWxiJjicOHK6R3zHgcauEG41GyXIgDIYfqjjkF9rb1jX46H33sEuBrwkjuRpkJFw4DZ5QvObHPuHfrLQ34OKRcpTaTN41T5JhjyeGlvnY32s+XoEKdhOEdyD/eSg5GQGvadbZ+3xnDwEY77nlREdcyM7ERfgnOz9l6jJb8RbMpHsfBmO1zAZ9gQzys+ZgF9SHpcamZ72vntx9zImLBDYr0jAdvk0WWBiUQAKwGe9bDt7CIHYDAvdXHrbgIlMR2Dnh6962qU3WFE5LyOVQDxUJtZP4bd9vTLDNJgrktKb6R0ubGvNWpX5mY6/FLIfx9v6eX/tj+lKB3pBHOxlxZn+z5JCYzv83Vc2we81m0rFBEUhAe423e+De1jNKVesYJ7/G0ybd1poe+OB/qGmgOYjB3cZ6yHH39697OZX3/orMAUwIGVCuXBvbY1ba6dQgmkdV5NvaUTqfUqjEEzDd/tCwBGnGdoeSYt4lXLJ5sVQbe17jypzFS5hLE5F6bW3zD9pYbUG8xJhknYfsaEx9v2oxY7Qx/yFZQJfF7rglF0cpt0zP5OreW2sE2lFvx0xmvmoqHMhp4sQ43Tv+67mSla59adgffWNHdINeyIk1RRAhJ6a6vpS63Sv2vqqzVxeRLkLsknThCZzABQDOGt2P7KJ5F3EQnhihKD5r/mAQKGbhTV83ue4hf8yLoAjyQw4f8vOA1CI4BL/yn0EePBVq8fQUPOXFUx5cfWSXR73RQGzL7YEeHSMXZOgbt2aq91NYAMbzr+KxyPPgd/D89HxQn54f63nwnD/+DvK/4WarODznxT+HoshLyAVldKcvzCSaxaKiKCLH+tGufzfbJCIk/jnyfx+Dn88QOSqKwCiCx+JwYNMJiqsiOEV+GJTqzoUQZX93Aw0jTm9gFw2n9wk0pJNl2RXzi70QGRwPSCUq6pKrjLCVIAkCuK1+tvFrt+dJcttehia0OzNMlgJ3bnVfAkkGMvhz6keX+uVSoUKFChUqVKhQocKl8R9uCJw+wzQaHAAAAABJRU5ErkJggg=="
+      }
+    ],
+  
+    "food": [
+      {
+        "id": 1,
+        "name": "King Savers",
+        "price": 660,
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/n3frruwjijq8wanzdzrz",
+        "restaurantId": 4
+      },
+      {
+        "id": 2,
+        "name": "Crispy Chicken",
+        "price": 720,
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/d0crljavbeyktubovnx1",
+        "restaurantId": 4
+      },
+      {
+        "id": 3,
+        "name": "Whopper",
+        "price": 940,
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/p0cfgepnwu1slawj9htc",
+        "restaurantId": 4
+      },
+      {
+        "id": 4,
+        "name": "Big King XL",
+        "price": 1220,
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/xtgopiaatifmqszvm1ao",
+        "restaurantId": 4
+      },
+      {
+        "id": 5,
+        "name": "9 Chicken Nugget Bites",
+        "price": 900,
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/fke9rokwdhawekvikorj",
+        "restaurantId": 4
+      },
+      {
+        "id": 6,
+        "name": "Milkshake Strawberry",
+        "price": 280,
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/w9k2r3zo10k23xzgukgc",
+        "restaurantId": 4
+      },
+  
+      {
+        "id": 7,
+        "name": "Tandoori panner",
+        "price": 1000,
+        "photoName": "https://thumbs.dreamstime.com/b/grilled-cottage-cheese-also-known-as-paneer-tikka-kebab-chili-paneer-chilli-paneer-tandoori-paneer-india-india-bar-73297888.jpg?w=768",
+        "restaurantId": 1
+      },
+  
+      {
+        "id": 8,
+        "name": "Dahi Vada",
+        "price": 800,
+        "photoName": "https://t3.ftcdn.net/jpg/04/02/96/38/240_F_402963868_NXuqmcLj3AgYpSoPr9rT4lkkoOfB9QeM.jpg",
+        "restaurantId": 1
+      },
+  
+      {
+        "id": 9,
+        "name": "Mutton Nihari",
+        "price": 1500,
+        "photoName": "https://t4.ftcdn.net/jpg/00/29/29/25/240_F_29292582_rKWLOVhtxYcFgAkSK7S7dqyxXcXodpJK.jpg",
+        "restaurantId": 1
+      },
+  
+      {
+        "id": 10,
+        "name": "Family Platter",
+        "price": 2500,
+        "photoName": "https://images.bolt.eu/store/2023/2023-05-10/676ccb7d-f178-4bf8-bdcc-ccb0df738c5a.jpeg",
+        "restaurantId": 8
+      },
+  
+      {
+        "id": 11,
+        "name": "Fish Fingers",
+        "price": 650,
+        "PhotoName": "https://t3.ftcdn.net/jpg/01/98/36/12/240_F_198361260_QwntwBxrojHbm1rj7EMYmcC252vpqLB6.jpeg",
+        "restaurantId": 8
+      },
+  
+      {
+        "id": 12,
+        "name": "Whole Fish",
+        "price": 750,
+        "PhotoName": "https://stock.adobe.com/images/grilled-fish-with-roasted-potatoes-and-vegetables-on-the-plate/117717294",
+        "restaurantId": 8
+      },
+  
+      {
+        "id": 13,
+        "name": "Grilled Fish Fillet",
+        "price": 950,
+        "PhotoName": "https://t4.ftcdn.net/jpg/01/57/58/09/240_F_157580962_PGzcBcdxp2I16PM0iYZVfaY0l9BpJu7Z.jpg",
+        "restaurantId": 8
+      },
+  
+      {
+        "id": 14,
+        "name": "Kienyeji Chicken",
+        "price": 600,
+        "PhotoName": "src/assets/Kienyeji Chicken.png",
+        "restaurantId": 6
+      },
+  
+      {
+        "id": 15,
+        "name": "Coconut fish",
+        "price": 800,
+        "PhotoName": "https://media.istockphoto.com/id/1331074206/photo/steamed-mango-fish-dressing-spicy-coconut-milk-curry-sauce.jpg?s=",
+        "restaurantId": 6
+      },
+  
+      {
+        "id": 16,
+        "name": "Fried noodles pieces with beef",
+        "price": 720,
+        "PhotoName": "https://t3.ftcdn.net/jpg/06/00/77/64/240_F_600776465_RMskXAXPp4thAgfKONd2kpbCPxA95yP7.jpg",
+        "restaurantId": 7
+      },
+  
+      {
+        "id": 17,
+        "name": "Fried noodles pieces with tomatoes and eggs",
+        "price": 720,
+        "PhotoName": "https://t4.ftcdn.net/jpg/02/58/43/07/240_F_258430758_Uququ26f62Vvq4gkvGsVwZ2XOa4MTD8o.jpg",
+        "restaurantId": 7
+      },
+  
+      {
+        "id": 18,
+        "name": "Fried Rice with eggs",
+        "price": 600,
+        "PhotoName": "https://res.cloudinary.com/glovoapp/f_auto,c_fill,dpr_1.0,h_60,w_60,q_auto:low,b_transparent/Products/rfxp88ce78wgtzshzbjt",
+        "restaurantId": 7
+      },
+      {
+        "id": 7,
+        "name": "HAWAIIAN",
+        "price": 1600,
+        "photoName": "https://cache.dominos.com/wam/prod/market/KE/_en/images/promo/a5970e2a-c06a-4970-bc48-82950fb73f9b.jpg",
+        "restaurantId": 5
+      },
+  
+      {
+        "id": 8,
+        "name": "CHICKEN TIKKA",
+        "price": 1600,
+        "photoName": "https://cache.dominos.com/wam/prod/market/KE/_en/images/promo/9ee3c6df-a16a-4922-ab6a-b67de2bf0b29.jpg",
+        "restaurantId": 5
+      },
+      {
+        "id": 9,
+        "name": "BBQ CHICKEN",
+        "price": 1690,
+        "photoName": "https://cache.dominos.com/wam/prod/market/KE/_en/images/promo/4d0f7522-18e6-4b3a-98a5-263d5ac4c84b.jpg",
+        "restaurantId": 5
+      },
+      {
+        "id": 10,
+        "name": "EXTRAVAGANZZA",
+        "price": "KSh1,950",
+        "photoName": "https://cache.dominos.com/wam/prod/market/KE/_en/images/promo/006a1ab5-e8f4-424c-b863-2d00f1e4a1dd.jpg",
+        "restaurantId": 5
+      },
+      {
+        "id": 11,
+        "name": "PEPPERONI PASSION",
+        "price": "KSh1,900",
+        "photoName": "https://cache.dominos.com/wam/prod/market/KE/_en/images/promo/b5d88656-87dc-4a20-9d29-9aa8974a3d00.jpg",
+        "restaurantId": 5
+      },
+      {
+        "id": 12,
+        "name": "PERI-PERI CHICKEN",
+        "price": 1750,
+        "photoName": "https://cache.dominos.com/wam/prod/market/KE/_en/images/promo/758a53b2-0a19-480e-a7e3-9b4120aa2564.jpg",
+        "restaurantId": 5
+      },
+      {
+        "id": 13,
+        "name": "PHILLY CHEESE STEAK",
+        "price": 1190,
+        "photoName": "https://restaurentapp.s3.eu-west-1.amazonaws.com/productImages/1557919584.jpg",
+        "restaurantId": 2
+      },
+      {
+        "id": 14,
+        "name": "CUBAN SANDWICH",
+        "price": 1190,
+        "photoName": "https://cafejavasmedia.s3.af-south-1.amazonaws.com/productImages/1682846096.jpg",
+        "restaurantId": 2
+      },
+      {
+        "id": 15,
+        "name": "FRIED CRISPY CHICKEN BURGER",
+        "price": 1300,
+        "photoName": "https://restaurentapp.s3.eu-west-1.amazonaws.com/productImages/1623417477.JPG",
+        "restaurantId": 2
+      },
+      {
+        "id": 16,
+        "name": "MEXICAN BURGER",
+        "price": "KSh1,300",
+        "photoName": "https://restaurentapp.s3.eu-west-1.amazonaws.com/productImages/1556874602.jpg",
+        "restaurantId": 2
+      },
+      {
+        "id": 17,
+        "name": "JUICY GRILLED CHICKEN BREAST",
+        "price": "KSh1,480",
+        "photoName": "https://restaurentapp.s3.eu-west-1.amazonaws.com/productImages/1556629694.jpg",
+        "restaurantId": 2
+      },
+      {
+        "id": 18,
+        "name": "Crispy Chicken Breast Salad With Peanuts & Sweet Chili Sauce",
+        "price": "KSh830",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/mwet6vzocld6z65isc9m",
+        "restaurantId": 3
+      },
+      {
+        "id": 19,
+        "name": "Signature Spicy Or Bbq",
+        "price": "KSh970",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/kjthc9mtmhhndl2271q3",
+        "restaurantId": 3
+      },
+      {
+        "id": 20,
+        "name": "Loaded Fries",
+        "price": "KSh970",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/vha6ezgxsvco6h1ajkxj",
+        "restaurantId": 3
+      },
+      {
+        "id": 21,
+        "name": "Grilled Chicken & Sundried Tomato",
+        "price": "KSh920",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/afc40pfpc6gxknguxxar",
+        "restaurantId": 3
+      },
+      {
+        "id": 22,
+        "name": "Ben's Burger",
+        "price": "KSh1,020",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/yhawziu2357c9tejsrbn",
+        "restaurantId": 3
+      },
+      {
+        "id": 23,
+        "name": "Cheese Burger",
+        "price": "KSh960",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/lpanitwjulpdxchkeqcd",
+        "restaurantId": 3
+      },
+      {
+        "id": 24,
+        "name": "Wings 8 Pcs",
+        "price": "KSh1,140",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/ooyoizrzrk6ulum1h6rm",
+        "restaurantId": 1
+      },
+      {
+        "id": 25,
+        "name": "Margherita Pizza",
+        "price": "KSh470",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/wfqgsy1asmmnotpicij9",
+        "restaurantId": 1
+      },
+      {
+        "id": 26,
+        "name": "The Glenlivet 12Y Scotch Whiskey 70 Cl",
+        "price": "KSh5,936",
+        "photoName": "https://images.deliveryhero.io/image/pim-glovo/64709457e5db06fac5823308.jpeg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjo2MDB9fV0=",
+        "restaurantId": 3
+      },
+      {
+        "id": 27,
+        "name": "Jack Daniel's Single Barrel Whisky 70cl",
+        "price": "KSh7,200",
+        "photoName": "https://images.deliveryhero.io/image/pim-glovo/64aee3cbcf7bd1acc1886fd6.jpeg?t=W3siYXV0byI6eyJxIjoibG93In19LHsicmVzaXplIjp7IndpZHRoIjo2MDB9fV0=",
+        "restaurantId": 3
+      },
+      {
+        "id": 28,
+        "name": "Penne Arrabiata - Double Portion",
+        "price": "KSh1,300",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/bm0o5lqphcser43wnbxu",
+        "restaurantId": 1
+      },
+      {
+        "id": 29,
+        "name": "Strawberry & Cream Crespelle",
+        "price": "KSh390",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/rjxfwdpf76n3h7iscezz",
+        "restaurantId": 1
+      },
+      {
+        "id": 30,
+        "name": "Nutella & Banana Crespelle",
+        "price": "KSh390",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/dnq4tit8tztpvcgov4jf",
+        "restaurantId": 1
+      },
+      {
+        "id": 31,
+        "name": "Fried Rice with Beef & Veggies",
+        "price": "KSh455",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/pi2p2y7al2hoejkevbd5",
+        "restaurantId": 1
+      },
+      {
+        "id": 32,
+        "name": "Chocolate Milkshake",
+        "price": "KSh385",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/mzqlwakoa5j68j2itgga",
+        "restaurantId": 1
+      },
+      {
+        "id": 33,
+        "name": "D’s Savoury Waffle",
+        "price": "KSh350",
+        "photoName": "https://res.cloudinary.com/glovoapp/w_600,f_auto,q_auto:low/Products/e370jmsmmvuugogs3sfx",
+        "restaurantId": "3"
+      },
+      {
+        "id": 34,
+        "name": "Vanilla Frappe",
+        "price": "KSh450",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/xspq38ttc2taudsrsygi",
+        "restaurantId": 2
+      },
+      {
+        "id": 35,
+        "name": "Mocha Frappe",
+        "price": "KSh550",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/ogdx1xypdtauqadlp9ua",
+        "restaurantId": 2
+      },
+      {
+        "id": 36,
+        "name": "Green Goblin",
+        "price": "KSh600",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/5865393752",
+        "restaurantId": 2
+      },
+      {
+        "id": 37,
+        "name": "Fudge Surprise",
+        "price": "KSh600",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/ktxpglund372mhn17b4e",
+        "restaurantId": 2
+      },
+      {
+        "id": 38,
+        "name": "Berry Mallow",
+        "price": "KSh600",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/5865393753",
+        "restaurantId": 2
+      },
+      {
+        "id": 39,
+        "name": "Mint Punch",
+        "price": "KSh300",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/zkfggbknzfdvxptorxm3",
+        "restaurantId": 1
+      },
+      {
+        "id": 40,
+        "name": "Lemonade",
+        "price": "KSh300",
+        "photoName": "https://res.cloudinary.com/glovoapp/q_auto,f_auto/Products/yknurwrfg1xbknkgioic",
+        "restaurantId": 1
+      }
+    ]
+  }
