@@ -17,7 +17,7 @@ function Cart({ orderData, setOrderData }) {
     // );
     // return setOrderData(() => filteredOrderData);
 
-    alert("Order deleted successfully");
+    alert("Order deleted");
   }
   console.log(orderData["orderQuantity"]);
 
