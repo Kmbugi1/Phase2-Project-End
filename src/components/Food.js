@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Order from "./Order";
 
 function Food({ food, setOrderData, orderData }) {
+  console.log(food)
   const [quantity, setQuantity] = useState(1);
   const [totalPrice, setTotalPrice] = useState(food.price);
 
@@ -40,7 +41,7 @@ function Food({ food, setOrderData, orderData }) {
     <div className=" food-container shadow p-2 d-flex flex-column">
       <div className=" row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 p-2">
         <div className="image-container">
-          <img className="" src={food.photoName} alt={food.name} />
+          <img className="" src={food.PhotoName} alt={food.name} />
         </div>
 
         <div className="col d-flex flex-column">
