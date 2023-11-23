@@ -8,7 +8,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3001/restaurants")
+    fetch("http://localhost:3000/restaurants")
       .then((res) => res.json())
       .then((data) => setRestaurants(data));
   }, []);
