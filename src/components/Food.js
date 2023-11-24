@@ -24,7 +24,7 @@ function Food({ food, setOrderData, orderData }) {
     let newOrderData = {
       orderQuantity: quantity,
       orderTotalPrice: totalPrice,
-      orderFoodImage: food.photoName,
+      orderFoodImage: food.PhotoName,
       orderFoodName: food.name,
     };
 
