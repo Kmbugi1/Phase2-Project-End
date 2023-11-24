@@ -6,9 +6,13 @@ function NavBar({ orderData, setOrderData }) {
   return (
     <>
       <nav className="navbar navbar-light bg-light justify-content-around ">
-        <Link to="/welcome" className="logo">
+        
+        <NavLink to="/welcome" className="logo">
           <img src={FoodCourtLogo} alt="" className="nav-logo" />
-        </Link>
+        </NavLink>
+{/* 
+        <NavLink to="/menu">Menu</NavLink>
+        <NavLink to="/login">Login</NavLink> */}
 
         <Cart setOrderData={setOrderData} orderData={orderData} />
       </nav>
@@ -19,5 +23,5 @@ function NavBar({ orderData, setOrderData }) {
     </>
   );
 }
-
 export default NavBar;
+
