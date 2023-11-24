@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-}
-
+*{ box-sizing: border-box; margin: 0; }
 body {
   background-color: #f7f2e9;
   font-family: "Roboto Mono", sans-serif;
@@ -14,7 +10,35 @@ body {
   margin: 0 100px;
   height: 60px;
   width: 170px;
-  height: 80px;
+  height: 80px;.login-container {
+    /* background-color: #d5f6ef; */
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 50px;
+    width: 500px;
+    box-sizing: border-box;
+  }
+
+  .login-text {
+    font-weight: 800;
+    font-size: 2rem;
+  }
+
+  .login-container input {
+    width: 400px;
+    border-radius: 50px;
+    font-weight: 700;
+    outline: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+  }
+
+  .login-container button:hover {
+    background-color: rgb(0, 160, 130);
+    color: rgb(238, 255, 252);
+    border-radius: 5px;
+  }
   border-radius: 5px;
 }
 
@@ -32,8 +56,8 @@ body {
   margin: 0 160px;
   font-weight: 600;
   font-size: 2rem;
-} */
-/* .menu-container {
+} /
+/ .menu-container {
   display: flex;
   justify-content: center;
 }
