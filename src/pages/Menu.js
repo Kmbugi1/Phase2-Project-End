@@ -11,7 +11,7 @@ function Menu() {
   const { restaurantId } = useParams();
 
   useEffect(() => {
-    fetch("http://localhost:3000/food")
+    fetch(" http://localhost:3000/food")
       .then((res) => res.json())
       .then((data) => setFood(data));
   }, []);
@@ -36,7 +36,7 @@ function Menu() {
     <div className="container">
       <NavBar orderData={orderData} />
       <div className="menu-container">
-        <h2 className="restaurant-browse">Our Menu</h2>
+        <h2 className="restaurant-browse">Menu</h2>
         <Link to="/home">
           <button className="return-btn ">Restaurants</button>
         </Link>
