@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/phase2-project-end/static/css/main.4980ad14.css",
-    "main.js": "/phase2-project-end/static/js/main.a6e9fb07.js",
+    "main.css": "/phase2-project-end/static/css/main.6f4b43cd.css",
+    "main.js": "/phase2-project-end/static/js/main.88acf636.js",
     "static/js/787.04d1b3fa.chunk.js": "/phase2-project-end/static/js/787.04d1b3fa.chunk.js",
     "static/media/FoodCourtLogo.jpeg": "/phase2-project-end/static/media/FoodCourtLogo.8a77b9e5694d331fdd9e.jpeg",
     "index.html": "/phase2-project-end/index.html",
-    "main.4980ad14.css.map": "/phase2-project-end/static/css/main.4980ad14.css.map",
-    "main.a6e9fb07.js.map": "/phase2-project-end/static/js/main.a6e9fb07.js.map",
+    "main.6f4b43cd.css.map": "/phase2-project-end/static/css/main.6f4b43cd.css.map",
+    "main.88acf636.js.map": "/phase2-project-end/static/js/main.88acf636.js.map",
     "787.04d1b3fa.chunk.js.map": "/phase2-project-end/static/js/787.04d1b3fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4980ad14.css",
-    "static/js/main.a6e9fb07.js"
+    "static/css/main.6f4b43cd.css",
+    "static/js/main.88acf636.js"
   ]
 }
