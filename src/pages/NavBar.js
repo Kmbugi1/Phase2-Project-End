@@ -1,5 +1,5 @@
 import Cart from "../components/Cart";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import FoodCourtLogo from "../assets/FoodCourtLogo.jpeg";
 
 function NavBar({ orderData, setOrderData }) {
@@ -23,5 +23,5 @@ function NavBar({ orderData, setOrderData }) {
     </>
   );
 }
-
 export default NavBar;
+
