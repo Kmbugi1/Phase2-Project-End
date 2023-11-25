@@ -53,7 +53,7 @@ function Food({ food, setOrderData, orderData }) {
 
               <div className="quantity-btn mt-auto">
                 <button
-                  className="btn-quantity-reduce btn-quantity"
+         u         className="btn-quantity-reduce btn-quantity"
                   onClick={handleOnReduceQuantity}
                 >
                   -

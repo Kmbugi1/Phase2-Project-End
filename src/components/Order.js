@@ -14,7 +14,7 @@ function Order({ orderData, onDeleteOrder, setOrderData }) {
           <i className="bx bxs-trash cart-remove m-2"></i>
         </span>
       </button>
-    </div>
+    </div>     
   );
 }
 
