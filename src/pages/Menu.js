@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import Food from "../components/Food";
 import NavBar from "./NavBar";
 
+
 function Menu() {
   const [food, setFood] = useState([]);
   const [orderData, setOrderData] = useState([]);
@@ -11,7 +12,7 @@ function Menu() {
   const { restaurantId } = useParams();
 
   useEffect(() => {
-    fetch("http://localhost:3000/food")
+    fetch("https://project-be-g6ag.onrender.com/food")
       .then((res) => res.json())
       .then((data) => setFood(data));
   }, []);
@@ -66,6 +67,7 @@ function Menu() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }

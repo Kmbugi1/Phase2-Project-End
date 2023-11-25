@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import NavBar from "../pages/NavBar";
+import Reviews from "./Reviews";
 
 import Restaurants from "./Restaurants";
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
   const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3000/restaurants")
+    fetch("https://project-be-g6ag.onrender.com/restaurants")
       .then((res) => res.json())
       .then((data) => setRestaurants(data));
   }, []);
@@ -26,6 +27,7 @@ export default function Home() {
           />
         </div>
       </div>
+      <Reviews />
     </>
   );
 }

@@ -27,7 +27,7 @@ const Reviews = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:3000/Reviews", {
+    fetch("https://project-be-g6ag.onrender.com/Reviews", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

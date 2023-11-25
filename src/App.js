@@ -1,7 +1,6 @@
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Reviews from "./components/Reviews";
 import Login from "./pages/Login";
 import Home from "./components/Home";
 import Menu from "./pages/Menu";
@@ -19,7 +18,7 @@ function App() {
             
           </Routes>
         </Router>
-        <Reviews />
+        
         
       </div>
     </>
