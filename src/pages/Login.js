@@ -83,7 +83,10 @@ function Login() {
                 required
               />
             </div>
+<<<<<<< HEAD
           
+=======
+>>>>>>> 6ace65bdac6b3834de8b9b7a517c248eab2ee306
             <div className="mb-3">
               <label htmlFor="area" className="form-label">
                 Area

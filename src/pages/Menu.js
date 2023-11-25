@@ -12,7 +12,11 @@ function Menu() {
   const { restaurantId } = useParams();
 
   useEffect(() => {
+<<<<<<< HEAD
     fetch("https://project-be-g6ag.onrender.com/food")
+=======
+    fetch(" http://localhost:3000/food")
+>>>>>>> 6ace65bdac6b3834de8b9b7a517c248eab2ee306
       .then((res) => res.json())
       .then((data) => setFood(data));
   }, []);
@@ -37,7 +41,7 @@ function Menu() {
     <div className="container">
       <NavBar orderData={orderData} />
       <div className="menu-container">
-        <h2 className="restaurant-browse">Our Menu</h2>
+        <h2 className="restaurant-browse">Menu</h2>
         <Link to="/home">
           <button className="return-btn ">Restaurants</button>
         </Link>

@@ -39,7 +39,11 @@
       "last 1 safari version"
     ]
   },
+<<<<<<< HEAD
   "description": "Welcome to Flavor Plaza, your go-to destination for a delightful fast food experience! Flavor Plaza brings you a diverse menu of delicious and mouth-watering fast food items, all available at your fingertips. Whether you're craving a juicy burger, a crispy pizza, or a refreshing beverage, Flavor Plaza has got you covered. Features",
+=======
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+>>>>>>> 6ace65bdac6b3834de8b9b7a517c248eab2ee306
   "main": "index.js",
   "devDependencies": {
     "gh-pages": "^6.1.0"
