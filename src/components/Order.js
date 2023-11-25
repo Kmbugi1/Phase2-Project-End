@@ -27,22 +27,20 @@ function ParentComponent() {
   };
 
   return (
-    <div>
-      {orders.map((order) => (
-        <Order
-          key={order.id}
-          orderData={order}
-          onDeleteOrder={() => deleteOrderHandler(order.id)}
-          setOrderData={(newOrderData) => {
-            // Example: Update order data in the state
-            const updatedOrders = orders.map((o) =>
-              o.id === order.id ? { ...o, ...newOrderData } : o
-            );
-            setOrders(updatedOrders);
-          }}
-        />
-      ))}
-    </div>
+    <div className="cart-box">
+      <img src={orderData.orderFoodImage} alt="" className="cart-img" />
+      <div className="detail-box">
+        <div className="food-title">{orderData.orderFoodName}</div>
+        <div className="food-price">Ksh {orderData.orderTotalPrice}</div>
+        <span>{orderData.orderQuantity}</span>
+      </div>
+      <button onClick={() => onDeleteOrder(orderData)} style={{borderRadius: "25px"}}>
+        <span>
+          <i className="bx bxs-trash cart-remove m-2"></i>
+        </span>
+      </button>
+    </div>     
+
   );
 }
 

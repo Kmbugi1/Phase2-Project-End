@@ -154,7 +154,7 @@
         "id": 14,
         "name": "Kienyeji Chicken",
         "price": 600,
-        "PhotoName": "src/assets/Kienyeji Chicken.png",
+        "PhotoName": "https://www.kaluhiskitchen.com/wp-content/uploads/2017/05/kuku-kienyeji-recipes_how-to-make-kuku-kienyeji_how-to-make-kuku-kienyeji-tender_kaluhiskitchen.com_garlic-kienyeji-with-homemade-spice-blend.jpg",
         "restaurantId": 6
       },
   
@@ -162,7 +162,7 @@
         "id": 15,
         "name": "Coconut fish",
         "price": 800,
-        "PhotoName": "https://media.istockphoto.com/id/1331074206/photo/steamed-mango-fish-dressing-spicy-coconut-milk-curry-sauce.jpg?s=",
+        "PhotoName": "https://4.bp.blogspot.com/-F1G25FtYgFs/Vv1ACOpG3UI/AAAAAAAAFgA/ZWo9EOAOOygmNYXVBJp3pb5eZsTuWaOUA/s1600/IMG_5169.JPG",
         "restaurantId": 6
       },
   
@@ -236,7 +236,7 @@
         "id": 13,
         "name": "PHILLY CHEESE STEAK",
         "price": 1190,
-        "photoName": "https://restaurentapp.s3.eu-west-1.amazonaws.com/productImages/1557919584.jpg",
+        "photoName": "https://charleysfranchise.com/wp-content/uploads/2020/04/Philly-Cheese-Steak_menu-hero-e1587770839552-1024x527.jpg",
         "restaurantId": 2
       },
       {
