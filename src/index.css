@@ -412,21 +412,14 @@ body {
 
 .restaurant-content {
   border-radius: 20px;
-}
-
-.restaurant-content:hover {
   transform: scale(1.05);
 }
-
 .restaurant-image-container img {
   background-color: #fff;
   width: 18rem;
   height: 12rem;
   border-radius: 20px;
-
-
-}
-
+ }
 .restaurant-content h5 {
   margin: 20px auto;
   font-weight: 800;

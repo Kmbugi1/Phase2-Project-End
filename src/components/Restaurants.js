@@ -30,7 +30,7 @@ function Restaurants({ restaurants, setSearchTerm, searchTerm }) {
                 ? restaurant
                 : restaurant.name.toLowerCase().includes(searchTerm);
             })
-            .map((restaurant, index) => (
+            .map((restaurant) => (
               <Restaurant restaurant={restaurant} />
             ))}
         </div>

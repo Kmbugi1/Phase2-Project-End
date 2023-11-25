@@ -12,14 +12,13 @@ function Cart({ orderData, setOrderData }) {
   };
 
   function handleDeleteOrder() {
+    // Update logic to delete the specific order
     // const filteredOrderData = orderData.filter(
     //   (order) => order.id !== orderToDelete.id
     // );
-    // return setOrderData(() => filteredOrderData);
-
+    // setOrderData(filteredOrderData);
     alert("Order deleted");
   }
-  console.log(orderData["orderQuantity"]);
 
   return (
     <>
@@ -35,14 +34,7 @@ function Cart({ orderData, setOrderData }) {
         </span>
       </button>
 
-      <div
-        class="modal fade"
-        id="exampleModalLong"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLongTitle"
-        aria-hidden="true"
-      >
+      <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div className="modal-dialog" role="document">
           <div className="modal-content">
             <div className="modal-header">
@@ -64,7 +56,7 @@ function Cart({ orderData, setOrderData }) {
                   {orderData.map((order) => (
                     <Order
                       key={order.id}
-                      onDeleteOrder={handleDeleteOrder}
+                      onDeleteOrder={() => handleDeleteOrder(order)}
                       orderData={order}
                     />
                   ))}
@@ -75,7 +67,7 @@ function Cart({ orderData, setOrderData }) {
             <span className="order-total">
               Total: KSH{" "}
               {orderData.reduce(
-                (acc, orderData) => acc + orderData.orderTotalPrice,
+                (acc, order) => acc + order.orderTotalPrice,
                 0
               )}
             </span>
