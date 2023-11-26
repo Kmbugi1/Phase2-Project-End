@@ -11,7 +11,7 @@ const Reviews = () => {
 
   useEffect(() => {
     // Fetch reviews from your JSON server when the component mounts
-    fetch("http://localhost:3000/Reviews")
+    fetch("https://project-be-g6ag.onrender.com/Reviews")
       .then((response) => response.json())
       .then((data) => setReviews(data))
       .catch((error) => console.error('Error fetching reviews:', error));

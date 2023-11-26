@@ -15,10 +15,6 @@ function Order({ orderData, onDeleteOrder, setOrderData }) {
         </span>
       </button>
     </div>     
-<<<<<<< HEAD
-=======
-
->>>>>>> 6ace65bdac6b3834de8b9b7a517c248eab2ee306
   );
 }
 
